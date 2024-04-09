@@ -1,10 +1,8 @@
 #include <iostream>
 #include <math.h>
-#include "cuda_runtime.h"
 
+// sequential computation
 // function to add the elements of two arrays
-// parallel GPU 
-__global__ 
 void add(int n, float* x, float* y)
 {
     for (int i = 0; i < n; i++)

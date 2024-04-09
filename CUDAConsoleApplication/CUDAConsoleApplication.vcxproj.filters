@@ -15,11 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="add.cpp">
+    <ClCompile Include="add_cpu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CUDAConsoleApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>
